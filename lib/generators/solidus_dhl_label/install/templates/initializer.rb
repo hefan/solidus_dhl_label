@@ -9,7 +9,7 @@ SolidusDhlLabel.configure do |config|
   config.participation_id = "01"
   config.api_key = ""
 
-  config.consignor = {  #
+  config.consignor = {
     name1: "",
     name2: "",
     addressStreet: "",
