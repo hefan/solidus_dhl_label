@@ -52,7 +52,8 @@ module Spree
               li.quantity * ((li.variant.weight > 0.0) ? li.variant.weight : SolidusDhlLabel::config.default_unit_weight)
             }
           }
-        }
+        },
+        services: add_services(order)
       }]
     end
 
@@ -96,6 +97,13 @@ module Spree
         else
           return nil
       end
+    end
+
+    # override to add services
+    # see https://developer.dhl.com/api-reference/parcel-de-shipping-post-parcel-germany-v2?lang=en#get-started-section/
+    # section "Services"
+    def add_services order
+      return  nil
     end
 
   end
