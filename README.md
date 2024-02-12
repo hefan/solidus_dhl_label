@@ -119,7 +119,7 @@ https://geschaeftskunden.dhl.de/
 
 ### Usage in Backend
 
-Push the "DHL Label" Button on the orders detail page in shipments tab to send the label request and to get either redirect to the label url or to get a flash with the error message from the response.
+Push the "DHL Label" Button on the orders detail page in shipments tab to send the label request and to get either redirected to the label url or to get a flash with the error message from the response.
 
 ## Development
 
