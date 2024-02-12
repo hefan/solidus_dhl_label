@@ -1,0 +1,5 @@
+bump:
+  recurse: false
+  file: 'lib/solidus_dhl_label/version.rb'
+  message: Bump SolidusDhlLabel to %{version}
+  tag: true

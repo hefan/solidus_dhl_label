@@ -1,0 +1,7 @@
+de:
+  spree:
+    dhl_label:
+      title: "DHL Label"
+      unauthorized: "Nicht autorisiert"
+      missing_package_details: "Fehlende Paketdetails"
+      package_error: "paket nicht in ordnung"
