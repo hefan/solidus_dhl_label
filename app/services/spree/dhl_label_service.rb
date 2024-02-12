@@ -69,7 +69,7 @@ module Spree
     end
 
     def get_consignee order
-      consignee = {
+      {
         name1: order.ship_address.company.present? ? order.ship_address.company : order.ship_address.name,
         name2: order.ship_address.company.present? ? order.ship_address.name : nil,
         addressStreet: order.ship_address.address1,
