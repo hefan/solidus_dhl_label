@@ -102,7 +102,7 @@ end
   * You can als add dimensions to the request. if you need to do that, you have to override the _get_shipments_ function in _Spree::DhlLabelService_, see also https://developer.dhl.com/api-reference/parcel-de-shipping-post-parcel-germany-v2?lang=en#get-started-section/ Section "Dimensions"
 
 
-* __debug_output__: _true_ or _false_. id true the request and response will be logged.
+* __debug_output__: _true_ or _false_. if true the request and response will be logged.
 
 
 ### further info resources
