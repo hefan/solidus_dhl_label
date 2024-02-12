@@ -2,6 +2,7 @@
 
 DHL Shipping Label PDF Creation for Solidus Shop
 Create a Shipping Label for each completed order using the DHL "Parcel DE Shipping (Post & Parcel Germany)" API
+Tested for solidus 3.4 and above
 
 ## Extension Installation
 
