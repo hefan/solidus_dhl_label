@@ -11,7 +11,7 @@ Tested for solidus 3.4 and above.
 Add solidus_dhl_label to your Gemfile:
 
 ```ruby
-gem 'solidus_dhl_label'
+gem 'solidus_dhl_label', github: "hefan/solidus_dhl_label"
 ```
 
 Bundle your dependencies:
